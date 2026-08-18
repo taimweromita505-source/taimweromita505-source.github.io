@@ -1,24 +1,20 @@
 # Taimwe — Portfolio
 
-Personal portfolio site hosted free on **GitHub Pages** at `https://<your-username>.github.io`.
+Personal portfolio site hosted free on **GitHub Pages**.
 
-## Deploy in 4 steps
+**🌐 Live at:** `https://taimweromita505-source.github.io/`
 
-1. **Create a repository** on GitHub named exactly:
-   - `taimwe.github.io` — if your GitHub username is `taimwe`
-   - or `<your-username>.github.io` — if it's something else
-   - Make it **Public**.
+## About this repo
 
-2. **Upload these files** to the repo (or push with git):
-   - `index.html` (the whole site is this one file)
-   - `README.md` (this file, optional)
+- Account: `taimweromita505-source`
+- Repo: `taimweromita505-source.github.io` (the `<username>.github.io` name is what makes it a Pages user site)
+- `index.html` is the whole site — it's a static single-page portfolio
 
-3. **Enable Pages**: repo → **Settings** → **Pages** → under *Build and deployment*:
-   - Source: `Deploy from a branch`
-   - Branch: `main` / folder: `/ (root)`
-   - Click **Save**.
+## Updating the site
 
-4. **Visit** `https://<your-username>.github.io` — done. It takes ~1 minute to go live.
+1. Edit `index.html` locally.
+2. Commit and push (`git add index.html && git commit -m "update" && git push`).
+3. GitHub Pages rebuilds automatically in ~1 minute.
 
 ## Customize
 
@@ -51,7 +47,7 @@ you claim it by submitting a pull request to the `is-a-dev/register` GitHub repo
 
 ### Step B — connect it to your GitHub Pages site
 
-1. In your `taimwe.github.io` repo, add a file named **`CNAME`** (no extension)
+1. In your `taimweromita505-source.github.io` repo, add a file named **`CNAME`** (no extension)
    containing exactly one line: `taimwe.is-a.dev`
 2. Repo → **Settings** → **Pages** → **Custom domain**: type `taimwe.is-a.dev` → **Save**
 3. Tick **Enforce HTTPS** (their FAQ explicitly says this resolves SSL issues).
