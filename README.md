@@ -6,18 +6,19 @@ Personal portfolio site hosted free on **GitHub Pages**.
 
 ## About
 
-Hi, I'm **Taimwe** — an Android developer who builds practical apps with modern tools.
+Hi, I'm **Taimwe** — an Android developer who builds practical apps with modern tools. I enjoy turning ideas into working software and care about clean code, good UX, and shipping apps that actually work. I wish to expand my knowledge and build more advanced apps, and I'm always eager to learn more computer languages and technologies.
 
 ## Tech stack
 
-- **Android:** Kotlin, Jetpack Compose, Room, Ktor, Gradle
+- **Android:** Kotlin, Jetpack Compose, Room, Ktor, Gradle, VpnService
 - **Tools:** Android Studio, ADB, Git, GitHub CLI
 - **Web basics:** HTML, CSS, GitHub Pages
+- **Interests:** VPN/networking, AI-assisted development, open source
 
 ## Projects
 
 ### DT VPN
-Android VPN app with a matrix rain background, WireGuard config import, ad blocker, and dark UI. Built with Kotlin and Jetpack Compose.
+Android VPN app with a matrix rain background, WireGuard config import, ad blocker, and server selection. Built with Kotlin and Jetpack Compose.
 
 ### NeonCodePilot
 Android AI coding assistant with an agent engine, remote service, and terminal integration.
