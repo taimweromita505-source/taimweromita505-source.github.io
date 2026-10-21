@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Habit Coach — Privacy Policy</title>
+<meta name="description" content="Privacy policy for the Habit Coach Android app.">
+<style>
+:root{--bg:#0b0f17;--card:#131a26;--fg:#e8edf5;--mu:#93a0b4;--ac:#6ee7b7;--bd:#243044}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--fg);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--ac)}
+.wrap{max-width:800px;margin:0 auto;padding:0 20px}
+nav{border-bottom:1px solid var(--bd)}.nav{display:flex;align-items:center;height:58px}
+.logo{color:var(--fg);font-weight:700;text-decoration:none}.logo span{color:var(--ac)}
+main{padding:40px 20px 60px}
+h1{font-size:clamp(1.8rem,5vw,2.4rem);line-height:1.2;margin-bottom:8px}
+.mu{color:var(--mu)}
+h2{font-size:1.25rem;margin:32px 0 10px;color:var(--ac)}
+p,ul{margin-bottom:12px}ul{padding-left:22px}li{margin-bottom:6px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:16px 20px;margin:20px 0}
+footer{border-top:1px solid var(--bd);padding:20px;color:var(--mu);font-size:.9rem}
+</style>
+</head>
+<body>
+<nav><div class="wrap nav"><a href="/" class="logo">Taimwe<span> · AI dev</span></a></div></nav>
+<main class="wrap">
+<h1>Habit Coach — Privacy Policy</h1>
+<p class="mu">Effective date: 21 October 2026</p>
+
+<div class="card"><strong>Short version:</strong> your habits and check-ins stay on your phone. We have no accounts, no ads, no analytics and we never sell data. Only coach messages you choose to send and subscription checks go to our server, and we keep the minimum needed to run the service.</div>
+
+<h2>Who we are</h2>
+<p>Habit Coach is developed by Taimwe Romita (the "controller" under the GDPR). Contact: <a href="mailto:taimweromita505@gmail.com">taimweromita505@gmail.com</a>.</p>
+
+<h2>Data stored only on your device</h2>
+<p>Your habits, schedules, reminder times, check-ins, streaks, settings and coach chat history are stored locally on your device. We do not receive this data unless it is part of a coach request described below. The app creates a random, anonymous device ID (not linked to your name, email or advertising ID) to apply usage limits and link a subscription to your device.</p>
+
+<h2>Data sent to our server</h2>
+<p>Our server is a Cloudflare Worker. It receives data only in these cases:</p>
+<ul>
+<li><strong>AI coach chat:</strong> your message, recent messages of the conversation, and short context (your habit names, streaks and local time) plus the anonymous device ID. The text is processed by Cloudflare Workers AI (a Llama language model) to produce a reply. We do <strong>not</strong> store or log message content; it is used only to generate the reply.</li>
+<li><strong>Weekly insight (Pro):</strong> summary habit statistics and the device ID, processed the same way and not stored.</li>
+<li><strong>Usage limits:</strong> to prevent abuse and control costs, we keep counters (numbers only) keyed by device ID and by your IP address. IP counters expire after 1 day; device counters expire after the daily or weekly period they count.</li>
+<li><strong>Subscription verification:</strong> when you buy Habit Coach Pro, the app sends the Google Play purchase token, product ID and device ID. We ask Google whether the subscription is valid and store a record per device (purchase token, product, plan, subscription state and expiry time, last check time) plus a hashed token-to-device link, to unlock Pro and limit the number of devices per subscription. These records expire about 400 days after the last check. We also receive Google Play subscription status notifications to keep this record up to date.</li>
+</ul>
+<p>Like any web service, Cloudflare processes your IP address to deliver requests.</p>
+
+<h2>Payments</h2>
+<p>Payments are handled entirely by Google Play Billing. We never see your card or payment details, name or email. Google's processing is governed by the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+<h2>Permissions</h2>
+<p>The app requests only notifications (for the reminders you set) and Google Play billing. It does not access your location, contacts, calendar, camera, microphone or health data.</p>
+
+<h2>Purposes and legal bases (GDPR)</h2>
+<ul>
+<li>Providing the coach, insights and Pro features you request — performance of a contract (Art. 6(1)(b)).</li>
+<li>Rate limiting, abuse prevention and fraud checks on purchases — legitimate interests in running a secure, affordable service (Art. 6(1)(f)).</li>
+</ul>
+
+<h2>Third parties</h2>
+<ul>
+<li><strong>Google (Google Play)</strong> — app distribution, payments, subscription verification.</li>
+<li><strong>Cloudflare, Inc.</strong> — hosting of our server, key-value storage and AI processing (Workers AI). See <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare's privacy policy</a>.</li>
+</ul>
+<p>These providers may process data outside the EU (e.g. in the USA) under appropriate safeguards such as the EU Standard Contractual Clauses / EU-US Data Privacy Framework. We do not sell, rent or share your data for advertising. The app contains no ads and no analytics or tracking SDKs.</p>
+
+<h2>Retention and deletion</h2>
+<ul>
+<li>On-device data: delete it at any time by clearing the app's data or uninstalling the app.</li>
+<li>Server data: usage counters expire automatically (1 day to about 1 week); subscription records expire about 400 days after the last check. To delete them sooner, email us with the subject "Habit Coach data deletion" — we will delete server-side records linked to your device or purchase within 30 days (deleting a subscription record may mean Pro must be restored again from Google Play).</li>
+<li>Cancelling a subscription is done in Google Play, not by deleting data.</li>
+</ul>
+
+<h2>Your rights</h2>
+<p>If you are in the EU/EEA or UK, you have the right to access, rectify, erase, restrict or object to processing of your personal data, and to data portability. Email us to exercise them. Because we have no accounts, we may ask for your purchase order ID or device details to find your records. You also have the right to complain to a data protection supervisory authority, for example in your country of residence.</p>
+
+<h2>Children</h2>
+<p>Habit Coach is not directed to children under 13 (or under the age of digital consent in your country) and we do not knowingly collect their data. If you believe a child has used the coach, contact us and we will delete related server data.</p>
+
+<h2>Security</h2>
+<p>All traffic between the app and our server uses HTTPS. Server access is restricted, message content is not logged, and purchase tokens are linked using a one-way hash. No method is perfectly secure, but we keep data to a minimum.</p>
+
+<h2>Changes</h2>
+<p>We may update this policy. Changes will be posted on this page with a new effective date; significant changes will be noted in the app or store listing.</p>
+
+<h2>Contact</h2>
+<p>Taimwe Romita — <a href="mailto:taimweromita505@gmail.com">taimweromita505@gmail.com</a></p>
+</main>
+<footer><div class="wrap">© 2026 Taimwe Romita · Habit Coach</div></footer>
+</body>
+</html>
